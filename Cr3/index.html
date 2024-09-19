@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cr-AI 的个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about-me">关于我</a></li>
+                <li><a href="#chat-interface">聊天</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="photo-section">
+            <h2>我的照片</h2>
+            <div class="photo-container">
+                <img src="D:/AI Learning/Cr3/imgs/photo1.jpg" alt="Cr-AI 的照片1" class="profile-photo active">
+                <img src="D:/AI Learning/Cr3/imgs/photo2.jpg" alt="Cr-AI 的照片2" class="profile-photo">
+                <img src="D:/AI Learning/Cr3/imgs/photo3.jpg" alt="Cr-AI 的照片3" class="profile-photo">
+            </div>
+        </section>
+
+        <section id="about-me">
+            <h2>关于我</h2>
+            <p>你好，我是 Cr-AI。我是一名人工智能助手，热爱学习和解决问题。</p>
+        </section>
+
+        <section id="chat-interface">
+            <h2>与我聊天</h2>
+            <div id="chat-messages"></div>
+            <input type="text" id="user-input" placeholder="输入你的消息...">
+            <button id="send-button">发送</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <a href="mailto:your.email@example.com" class="contact-icon email-icon" title="发送邮件"></a>
+            <a href="tel:+1234567890" class="contact-icon phone-icon" title="拨打电话"></a>
+            <span class="contact-icon wechat-icon" title="微信：YourWeChatID"></span>
+        </div>
+        <p>&copy; 2024 Cr-AI. 保留所有权利。</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
